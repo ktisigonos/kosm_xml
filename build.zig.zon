@@ -1,0 +1,18 @@
+.{
+    .name = .kosm_xml,
+    .version = "0.0.0",
+    .fingerprint = 0x24928d9e6f37560e, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .kosm = .{
+            .url = "git+https://git.nnstdios.com/nnra6864/kosm?ref=master#d89f4b167fa476aa95983cdcb3b67b3e3f1811f5",
+            .hash = "kosm-0.0.0-YCShsiWXCgA01TgU-4rwO_b2OZNVrGQL-PZyw0BkLfWc",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "root.zig",
+        "README.md",
+    },
+}
